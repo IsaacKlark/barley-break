@@ -1,28 +1,32 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <BarleyBreak />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import BarleyBreak from './components/barley-break';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    BarleyBreak,
   }
 }
 </script>
 
 <style>
+body {
+  background-image: url(https://on-desktop.com/ru/images/wp.php?path=/wps/Backgrounds_Pi__background_figures_104148_.jpg&wp=9);
+  background-size: cover;
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  color: #207a49;
+  margin-top: 20px;
 }
 </style>
